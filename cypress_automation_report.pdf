@@ -1,0 +1,35 @@
+# Cypress Automation Project - Mid-Semester Progress Report  
+
+## Current Date and Time  
+2026-02-19 11:01:54  
+
+## Current User's Login  
+SaivamshiGatla  
+
+## Introduction  
+This report summarizes the current status and progress made in the Cypress Automation Project.  
+
+## Objectives  
+- Implement automated testing for web applications using Cypress.  
+- Improve testing efficiency and reduce manual testing efforts.  
+
+## Progress Overview  
+### Completed Tasks  
+1. Set up the Cypress testing environment.  
+2. Developed automated tests for the login functionality.  
+3. Created tests for the main user flows.  
+
+### Ongoing Work  
+- Developing tests for edge cases and error handling scenarios.  
+- Integrating Cypress with CI/CD pipeline.  
+
+## Challenges  
+- Encountered issues with test flakiness due to asynchronous operations.  
+- Limited documentation on certain Cypress functionalities.  
+
+## Next Steps  
+- Focus on improving the stability of tests.  
+- Extend test coverage to other application features.  
+
+## Conclusion  
+Overall, good progress has been made in the Cypress Automation Project. Next steps will focus on refining existing tests and expanding coverage.
