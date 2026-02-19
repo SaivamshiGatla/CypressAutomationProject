@@ -1,0 +1,61 @@
+{
+  "loginData": [
+    {
+      "username": "admin",
+      "password": "admin123",
+      "expectedUrl": "/dashboard"
+    }
+  ],
+  "invalidLoginData": [
+    {
+      "username": "invaliduser",
+      "password": "admin123",
+      "expectedError": "Invalid credentials"
+    },
+    {
+      "username": "admin",
+      "password": "wrongpassword",
+      "expectedError": "Invalid credentials"
+    }
+  ],
+  "userData": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@orangehrm.com",
+      "phone": "+1234567890"
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@orangehrm.com",
+      "phone": "+0987654321"
+    }
+  ],
+  "leaveData": [
+    {
+      "leaveType": "Casual Leave",
+      "fromDate": "2024-02-25",
+      "toDate": "2024-02-26",
+      "comments": "Personal leave"
+    },
+    {
+      "leaveType": "Sick Leave",
+      "fromDate": "2024-03-01",
+      "toDate": "2024-03-03",
+      "comments": "Medical issue"
+    }
+  ],
+  "performanceData": [
+    {
+      "reviewer": "HR Manager",
+      "rating": "5",
+      "comments": "Excellent performance"
+    },
+    {
+      "reviewer": "Manager",
+      "rating": "4",
+      "comments": "Good performance"
+    }
+  ]
+}
